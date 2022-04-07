@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class AppComponent implements OnInit{
 
-  headers = [' CityName', 'CompanyName', 'CourseName', 'CourseDuration'];
+  headers = [' cityname', 'companyname', 'coursename', 'courseduration'];
 
 
 
@@ -17,13 +17,13 @@ export class AppComponent implements OnInit{
 
     {
 
-      CityName: 'Kakinada',
+      cityname: 'Kakinada',
 
-      CompanyName: 'Capgemini',
+      companyname: 'Capgemini',
 
-      CourseName: 'Angular',
+      coursename: 'Angular',
 
-      CourseDuration: '100 min',
+      courseduration: '100 min',
 
     },
 
@@ -31,23 +31,23 @@ export class AppComponent implements OnInit{
 
       cityname: 'Delhi',
 
-      CompanyName: 'Capgemini',
+      companyname: 'Capgemini',
 
-      CourseName: 'react',
+      coursename: 'react',
 
-      CourseDuration: '100 min',
+      courseduration: '100 min',
 
     },
 
     {
 
-      CityName: 'pune',
+      cityname: 'pune',
 
-      CompanyName: 'CG',
+      companyname: 'CG',
 
-      CourseName: 'Angular',
+      coursename: 'Angular',
 
-      CourseDuration: '4 hrs',
+      courseduration: '4 hrs',
 
     },
 
@@ -55,11 +55,11 @@ export class AppComponent implements OnInit{
 
       cityname: 'hyderabad',
 
-      CompanyName: 'Capgemini',
+      companyname: 'Capgemini',
 
-      CourseName: 'Agile',
+      coursename: 'Agile',
 
-      CourseDuration:'2 hrs',
+      courseduration:'2 hrs',
 
     },
   
