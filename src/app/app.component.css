@@ -1,0 +1,63 @@
+h1 {
+
+    text-align: center;
+  
+    color: cornflowerblue, crimson,black
+  
+  }
+  
+  
+  
+  #users {
+  
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  
+    border-collapse: collapse;
+  
+    width: 100%;
+  
+  }
+  
+  
+  
+  #users td,
+  
+  #users th {
+  
+    border: 1px solid rgb(1, 13, 23);
+  
+    padding: 8px;
+  
+  }
+  
+  
+  
+  #users tr:nth-child(even) {
+  
+    background-color: aqua
+  
+  }
+  
+  
+  
+  #users tr:hover {
+  
+    background-color: blanchedalmond
+  
+  }
+  
+  
+  
+  #users th {
+  
+    padding-top: 12px;
+  
+    padding-bottom: 12px;
+  
+    text-align: left;
+  
+    background-color: blueviolet;
+  
+    color: white;
+  
+  }

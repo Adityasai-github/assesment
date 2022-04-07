@@ -1,0 +1,51 @@
+
+<app-form></app-form>
+
+<form action="" #userForms="ngForm">
+  <input type="text" name="cityname" placeholder="cityname" ngModel> 
+    <br/> 
+    <br/> 
+    <input type="text" name="coursename" placeholder="coursename" ngModel>
+    <br/>
+    <br/>
+    <input type ="text" name="companyname" placeholder="companyname" ngModel>
+    <br/>
+    <br/>
+    <input type ="text" name="coursetime" placeholder="coursetime" ngModel>
+    <br/>
+    <br/>
+    <input type="submit" value="submit" (click)="AddData(userForms.value)"> 
+</form>
+<h1>Tabular Representation</h1>
+
+<hr />
+
+
+
+<table id="users">
+
+  <tr>
+
+    <th *ngFor="let column of headers">
+
+      {{ column }}
+
+    </th>
+
+  </tr>
+
+
+
+  <tr *ngFor="let x of rows">
+
+    <td> {{x.cityname}}</td>
+    <td> {{x.coursename}}</td>
+    <td> {{x.companyname}}</td>
+    <td> {{x.coursetime}}</td>
+
+  </tr>
+
+</table>
+
+
+<router-outlet></router-outlet>
